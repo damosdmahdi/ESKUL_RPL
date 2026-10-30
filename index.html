@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Katalog Anggota & Aktivitas TEFA</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Katalog Tim Proyek TEFA</h1>
+      <p class="subtitle">Platform kolaborasi siswa SMK Negeri 1 Majalengka x Majastic</p>
+    </header>
+
+    <!-- Fitur 1: Form Input Member -->
+    <section class="card form-section">
+      <h2>Tambah Anggota Tim</h2>
+      <form id="member-form">
+        <div class="form-group">
+          <label for="nama">Nama Lengkap</label>
+          <input type="text" id="nama" placeholder="Contoh: Adri Hidayat" required>
+        </div>
+        <div class="form-group">
+          <label for="role">Role / Peran</label>
+          <select id="role" required>
+            <option value="">Pilih Role</option>
+            <option value="Frontend Developer">Frontend Developer</option>
+            <option value="Backend Developer">Backend Developer</option>
+            <option value="UI/UX Designer">UI/UX Designer</option>
+            <option value="QA Tester">QA Tester</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="quotes">Kutipan / Motto</label>
+          <input type="text" id="quotes" placeholder="Contoh: Code, sleep, repeat" required>
+        </div>
+        <button type="submit" id="btn-submit" class="btn btn-primary">Tambah Anggota</button>
+      </form>
+    </section>
+
+    <!-- Fitur 2: Filter Role & Counter -->
+    <section class="filter-section">
+      <div class="counter-box">
+        Total Anggota: <span id="total-count">0</span>
+      </div>
+      <div class="filter-controls">
+        <button class="filter-btn active" data-filter="all">Semua</button>
+        <button class="filter-btn" data-filter="Frontend Developer">Frontend</button>
+        <button class="filter-btn" data-filter="Backend Developer">Backend</button>
+        <button class="filter-btn" data-filter="UI/UX Designer">UI/UX</button>
+        <button class="filter-btn" data-filter="QA Tester">QA</button>
+      </div>
+    </section>
+
+    <!-- Fitur 3: Grid Daftar Anggota -->
+    <section>
+      <div id="members-list" class="members-grid">
+        <!-- Rendered by JavaScript -->
+      </div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
