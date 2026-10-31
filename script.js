@@ -7,6 +7,12 @@ let members = [
     role: 'Project Manager',
     quotes: 'Always commit, rarely revert.',
   },
+  {
+    id: 2,
+    nama: 'Mentor UI/UX',
+    role: 'UI/UX Designer',
+    quotes: 'Design is how it works.',
+  },
 ];
 
 let currentFilter = 'all';
