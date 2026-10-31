@@ -3,7 +3,7 @@
 let members = [
   {
     id: 1,
-    nama: 'Adri Hidayat',
+    nama: 'repana pirdaus',
     role: 'Project Manager',
     quotes: 'Always commit, rarely revert.',
   },
