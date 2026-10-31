@@ -19,6 +19,12 @@ let members = [
     role: 'Backend Developer',
     quotes: 'Aku terbaik manusia di dunia',
   },
+    {
+      id: 4,
+      nama: 'Fardan Badriadin',
+      role: 'UI/UX Designer',
+      quotes: 'Please draw me in black and white',
+  },
 ];
 
 let currentFilter = 'all';
