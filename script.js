@@ -13,19 +13,11 @@ let members = [
     role: 'UI/UX Designer',
     quotes: 'Design is how it works.',
   },
-<<<<<<< HEAD
-    {
-    id: 3,
-    nama: 'Muhammad Akmal Nurhakim',
-    role: 'Backend Developer',
-    quotes: 'Aku terbaik manusia di dunia',
-=======
   {
     id: 3,
     nama: 'Revan Bagus Utama',
     role: 'UI/UX Designer',
     quotes: 'Design is how it works.',
->>>>>>> cc14652 (absen)
   },
 ];
 
