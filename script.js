@@ -9,9 +9,9 @@ let members = [
   },
   {
     id: 2,
-    nama: 'Mentor UI/UX',
+    nama: 'Sandika Anggara',
     role: 'UI/UX Designer',
-    quotes: 'Design is how it works.',
+    quotes: 'amburadul.',
   },
     {
     id: 3,
