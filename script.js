@@ -19,6 +19,12 @@ let members = [
     role: 'Backend Developer',
     quotes: 'Aku terbaik manusia di dunia',
   },
+  {
+    id: 4,
+    nama: 'Azhar Ali S.K',
+    role: 'Fullstack Developer',
+    quotes: 'Fullstack developer, building the future one line of code at a time.',
+  }
 ];
 
 let currentFilter = 'all';
