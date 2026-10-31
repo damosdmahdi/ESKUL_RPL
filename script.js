@@ -13,11 +13,11 @@ let members = [
     role: 'UI/UX Designer',
     quotes: 'Design is how it works.',
   },
-    {
+  {
     id: 3,
-    nama: 'Muhammad Akmal Nurhakim',
-    role: 'Backend Developer',
-    quotes: 'Aku terbaik manusia di dunia',
+    nama: 'Revan Bagus Utama',
+    role: 'UI/UX Designer',
+    quotes: 'Design is how it works.',
   },
 ];
 
